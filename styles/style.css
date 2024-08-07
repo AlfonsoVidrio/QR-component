@@ -6,6 +6,10 @@
 }
 
 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     background-color: var(--color-slate-300);
     font-family: 'Outfit', sans-serif;
     box-sizing: border-box; 
@@ -19,7 +23,7 @@ body {
     border-radius: 1.25rem;
     width: 320px;
     height: 500px;
-    margin: 50% auto;
+    margin: 0;
 }
 
 .qr-code {
@@ -42,7 +46,7 @@ body {
     padding: 0 1rem;
 }
 
-.qr-code__text h2 {
+.qr-code__text h1 {
     color: var(--color-slate-900);
     font-size: 1.25rem;
     font-weight: bold;
